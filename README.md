@@ -1,0 +1,1 @@
+# sindi-a2a-client-example
