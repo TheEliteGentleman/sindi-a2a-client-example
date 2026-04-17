@@ -117,7 +117,6 @@ History:
 	Context ID: 5d185862-3ac5-43a0-9ae3-b6bce55fbb00
 	Processing request...
 
-
 Artifact:
 	=== Artifact ===
 	ID: 0980cd94-c34d-4cbc-a95e-6b7393e8dee9
@@ -230,7 +229,6 @@ History:
 	Task ID: a3c39cac-a2b6-43d9-a47c-7fbb79588675
 	Context ID: 5d185862-3ac5-43a0-9ae3-b6bce55fbb00
 	Processing request...
-
 
 Artifact:
 	=== Artifact ===

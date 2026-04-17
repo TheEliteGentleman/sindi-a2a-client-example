@@ -99,13 +99,12 @@ public final class A2AClientExample {
 		 System.out.println(tabs(depth) + "Context ID: " + task.getContextId());
 		 System.out.println(tabs(depth) + "Status: " + task.getStatus().state());
 		 if (task.getHistory() != null && task.getHistory().length > 0) {
-			 System.out.println("History:");
+			 System.out.println(tabs(depth) + "History:");
 			 Arrays.asList(task.getHistory()).stream().forEach(history -> printMessage(history, depth + 1));
 		 }
 		 
 		 if (task.getArtifacts() != null) {
-			 System.out.println();
-			 System.out.println("Artifact:");
+			 System.out.println(tabs(depth) + "Artifact:");
 			 Arrays.asList(task.getArtifacts()).stream().forEach(artifact -> printArtifact(artifact, depth + 1));
 		 }
 		 System.out.println();
